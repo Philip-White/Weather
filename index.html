@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="background" id="background" style="display: none;">
+  <br/>
+  <div class="location">
+  <h4 id="location" style="color: white;     text-shadow: 0 0 8px black;
+"></h4>
+  </div>
+  <br/>
+  <h2 style="color: white; text-shadow: 0 0 8px black;"id="number">
+</h2>
+
+  <button class="buttons" id="celcius" >C
+  </button>
+  <button class="buttons" id="fahrenheit">F
+  </button>
+  <br/>
+  <br/>
+  <h4 style="color: white; text-shadow: 0 0 8px black;"id="current"></h4>
+  <h4 style="color: white; text-shadow: 0 0 8px black;" id="description"></h4>
+  <h4 style="color: white; text-shadow: 0 0 8px black;" id="winds"></h4>
+
+
+
+  <a href="#" style="color: blue;" onclick="showForecast()"><i class="fas fa-angle-down" style="font-size: 40px; color: white; text-shadow: 0 0 8px black;"></i></a>
+<div id="fiveDay" style="display: none;">
+<table align="center" style="background-color: white;">
+  <tr>
+    <td>3 Day Temps</td>
+    <td id="day1"></td>
+    <td id="day2"></td>
+    <td id="day3"></td>
+    <td id="day4"></td>
+    <td id="day5"></td>
+  </tr>
+  <tr>
+    <td>Day time High</td>
+    <td id="val1"></td>
+    <td id="val2"></td>
+    <td id="val3"></td>
+    <td id="val4"></td>
+    <td id="val5"></td>
+  </tr>
+
+  <tr>
+    <td>Night time Low</td>
+    <td id="valOne"></td>
+    <td id="valTwo"></td>
+    <td id="valThree"></td>
+    <td id="valFour"></td>
+    <td id="valFive"></td>
+  </tr>
+
+
+    
+</table>
+</div><!--fiveDay-->
+  
+</div><!--background-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
